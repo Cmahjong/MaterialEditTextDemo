@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="taotao.haoxiong.com.materialedittextdemo.MainActivity">
+    <com.rengwuxian.materialedittext.MaterialEditText
+        app:met_baseColor="#000000"
+        app:met_textColorHint="#666666"
+        android:hint="密码"
+        app:met_primaryColor="#FFB4FF11"
+        app:met_errorColor="#ff1111"
+        android:layout_width="match_parent"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelText="错误"
+        app:met_floatingLabelAnimating="true"
+        app:met_floatingLabelTextColor="#FF113DFF"
+        app:met_floatingLabelPadding="5dp"
+        app:met_floatingLabelTextSize="14sp"
+        app:met_singleLineEllipsis="true"
+        app:met_maxCharacters="20"
+        app:met_minCharacters="5"
+        app:met_helperText="help"
+        app:met_autoValidate="true"
+        android:drawableLeft=""
+        app:met_hideUnderline="true"
+        android:layout_height="wrap_content"/>
+</android.support.constraint.ConstraintLayout>
